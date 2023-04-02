@@ -1,15 +1,60 @@
 <!DOCTYPE html>
-<!--
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
--->
-<html>
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <div>TODO write content</div>
-    </body>
+<html xmlns:th"http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valle del Sol</title>
+    <link href="css/EstiloVideo.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+    <header class="headervideo">
+        <div>
+
+            <article class="fondo1"></article>
+
+            <article class="fondo2"></article>
+
+            <article class="imageninicio"><a th:href="@{/}"><img src="imagenes/inicio.png" alt="" height="150" width="150" ></a></article>
+
+            <article class="imagen3"><img src="imagenes/Tutoria.png" alt="inicio.png" height="250" width="250"></article>
+
+            <article class="imagenlogogolf"><img src="imagenes/Logo de golfista .png" alt=""></article>
+
+            <p class="texto">Videos tutoriales</p>
+
+        </div>
+    </header>
+
+    <div class="videos">
+
+        <article class="articulo1"> <iframe width="560" height="315" src="https://www.youtube.com/embed/2jvCZElWRtk"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe> </article>
+
+        <article class="articulo2"> <iframe width="560" height="315" src="https://www.youtube.com/embed/zgAlSIX4ucM"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe> </article>
+
+        <article class="articulo3"> <iframe left: 1800px;top: 30px; width="560" height="315" src="https://www.youtube.com/embed/IWl3qndvGhM"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe> </article>
+
+        <article class="articulo4"> <iframe width="560" height="315" src="https://www.youtube.com/embed/DRPXqIa4mbI"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe> </article>
+
+    </div>
+
+    <footer>
+        <p>+506-8837-5638 &copy; 2023 - Tienda - @ Email: carloscastillogolf@gmail.com </p>
+    </footer>
+
+</body>
 </html>
