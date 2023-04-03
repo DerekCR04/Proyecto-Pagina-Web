@@ -39,7 +39,7 @@ public class AgendaController {
     @PostMapping("/agenda/guardar")
     public String guardarCita(Agenda agenda){
         agendaService.save(agenda);
-        return "redirect:/agenda";
+        return "redirect:/";
     }
     
 }
