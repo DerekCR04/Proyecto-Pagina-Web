@@ -17,43 +17,47 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
 
                 <article class="fondo2"></article>
 
-                <article class="imageninicio"><a href="index.html"> <img src="/imagenes/inicio.png" alt="" height="150" width="150"/> </a> </article>
+                <article class="imageninicio"><a th:href="@{/}"> <img src="/imagenes/inicio.png" alt="" height="150" width="150"/> </a> </article>
 
-                <article class="imagenAgenda"> <img src="/imagenes/Calendario de golf.png" alt="" height="250" width="250"/> </article>
+                <article class="imagenAgenda"> <img src="/imagenes/Calendario de golf.png" alt="" height="350" width="350"/> </article>
 
-                <article class="imagenLogoGolf"> <img src="/imagenes/Logo de golfista .png" alt=""/> </article>
+                <article class="imagenLogoGolf"> <img src="/imagenes/Logo de golfista .png" alt="" height="350" width="350"/> </article>
+                
+                <p class="texto1">Agenda de clases</p>
 
-                <p class="texto">Agenda</p>
+                <p class="texto">Agenda de resevación de clases</p>
 
             </div>
         </header>
 
         <p>Agenda de clases de golf</p>
-        <main>
-            <form th:action="@{/agenda/guardar}" 
-                  method="POST"
-                  th:object="${cliente}">
-                <label for="nombre">Nombre :</label>
-                <input type="text" id="nombre" name="nombre"><br>
+        <div class="formulario">
+            <main>
+                <form th:action="@{/agenda/guardar}" 
+                      method="POST"
+                      th:object="${cliente}">
+                    <label class="etiquetas nombre" for="nombre">Nombre :</label>
+                    <input class="entradas ent-nombre" type="text" id="nombre" name="nombre"><br>
 
-                <label for="apellidos">Apellidos:</label>
-                <input type="text" id="apellidos" name="apellidos"><br>
+                    <label class="etiquetas apellidos" for="apellidos">Apellidos:</label>
+                    <input class="entradas ent-apellidos" type="text" id="apellidos" name="apellidos"><br>
 
-                <label for="correo">Correo:</label>
-                <input type="email" id="correo" name="correo"><br>
+                    <label class="etiquetas correo-elec" for="correo">Correo:</label>
+                    <input class="entradas ent-email" type="email" id="correo" name="correo"><br>
 
-                <label for="telefono">Teléfono:</label>
-                <input type="tel" id="telefono" name="telefono"><br>
+                    <label class="etiquetas tele" for="telefono">Teléfono:</label>
+                    <input class="entradas ent-tele" type="tel" id="telefono" name="telefono"><br>
 
-                <label for="hora">Hora de Visita:</label>
-                <input type="time" id="hora" name="hora"><br>
+                    <label class="etiquetas hora" for="hora">Hora de Visita:</label>
+                    <input class="entradas ent-hora" type="time" id="hora" name="hora"><br>
 
-                <label for="fecha">Fecha:</label>
-                <input type="date" id="fecha" name="fecha"><br>
+                    <label class="etiquetas fecha" for="fecha">Fecha:</label>
+                    <input class="entradas ent-fecha" type="date" id="fecha" name="fecha"><br>
 
-                <input type="submit" name="Guardar" value="Guardar">
-            </form>
-        </main>
+                    <input class="boton-guardar" type="submit" name="Guardar" value="Guardar">
+                </form>
+            </main>
+        </div>
 
     </body>
 </html>

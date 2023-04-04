@@ -1,5 +1,5 @@
 html{
-    background: url("https://dsm04pap002files.storage.live.com/y4m5RIoGbG-fcSxZyJvPceZa--pf-a7ds_EA9lCuE9RjOnNnDaJHZOvR_lZCycj3OAk8MrgcSAA1ANoRpo3BEhmiYSlNuCN4EMjgoKKUqYHgqIio9F3KRvRqkRjki1WbW2O67069Naa56tO5CDg2blQLgjscVXsv22hLJmaXPniZ55uQgnGdi2IpQKWyiVmj4UR?width=3000&height=4000&cropmode=none")no-repeat;
+    background: url("https://dsm04pap002files.storage.live.com/y4m_B0LtVcS0GPHU_LP6jfzDTI5_wn6EmpnXsQ6gc9Cx7BWwzLrAD9CNHHKO5GXJtsdRTPzyiXv7aJigYcjciqiFpocpBQKXJ4bgxZK-pUzXPCHGcIaxCHYXaO3N3Z_N0xoNzi3BBOQPJXDJ2BYLtoX16Nedf5DmAdmXGwydEA7gXSfYw_vxu7OCRYeseLpF5ny?width=3000&height=4000&cropmode=none")no-repeat;
     position: static;
     
 }
@@ -198,6 +198,10 @@ html{
     border-radius: 100%;
 }
 
+.imagen1 :hover{
+    width: 110%;
+}
+
 .imagen2 {
     position: absolute;
     width: 350px;
@@ -358,7 +362,7 @@ html{
     width: 1033px;
     height: 797px;
     left: 0px;
-    top: 0px;
+    top: -40px;
 }
 
 .info-parrafo{
@@ -385,7 +389,7 @@ html{
     left: 0px;
     top: 2600px;
 
-    background: rgba(0, 0, 0, 0.62);
+    background: rgba(0, 0, 0, 0.20);
 }
 
 .img-instructor{

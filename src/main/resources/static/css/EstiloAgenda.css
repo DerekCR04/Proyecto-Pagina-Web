@@ -1,6 +1,6 @@
 .headerAgenda{
     position: absolute;
-    width: 1920px;
+    width: 1902px;
     height: 627px;
     left: 1px;
     top: 0px;
@@ -14,4 +14,284 @@
     height: 2114px;
 
     background: rgba(0, 0, 0, 0.78);
+}
+
+.imageninicio{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 192px;
+    top: 243px;
+
+}
+
+.fondo1{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 760px;
+    top: 64px;
+
+    background: rgba(255, 255, 255, 0.62);
+    border-radius: 100%;
+}
+
+.fondo2{
+    position: absolute;
+    width: 309px;
+    height: 104px;
+    left: 806px;
+    top: 464px;
+
+    background: rgba(255, 255, 255, 0.62);
+    border-radius: 25px;
+}
+
+.imagenAgenda{
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    left: 785px;
+    top: 89px;
+
+    border-radius: 175px;
+}
+
+.imagenLogoGolf{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 1457px;
+    top: 89px;
+
+    border-radius: 175px;
+}
+
+.etiquetas{
+    position: absolute;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.entradas{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 810.62px;
+    height: 71.62px;
+    left: 152.38px;
+    top: 967.66px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0);
+    border-radius: 25px;
+}
+
+.nombre{
+    width: 276.82px;
+    height: 33.66px;
+    left: 152.38px;
+    top: 934px;
+
+}
+
+.ent-nombre{
+    width: 810.62px;
+    height: 71.62px;
+    left: 152.38px;
+    top: 967.66px;
+}
+
+.apellidos{
+    position: absolute;
+    width: 276.82px;
+    height: 33.66px;
+    left: 152.38px;
+    top: 1059.33px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.ent-apellidos{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 810.62px;
+    height: 71.62px;
+    left: 152.38px;
+    top: 1092.99px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0);
+    border-radius: 25px;
+}
+.correo-elec{
+    position: absolute;
+    width: 276.82px;
+    height: 33.66px;
+    left: 152.38px;
+    top: 1184.66px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.ent-email{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 810.62px;
+    height: 71.62px;
+    left: 152.38px;
+    top: 1218.32px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0);
+    border-radius: 25px;
+}
+
+.tele{
+    position: absolute;
+    width: 276.82px;
+    height: 33.66px;
+    left: 152.38px;
+    top: 1332.19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.ent-tele{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 810.62px;
+    height: 71.62px;
+    left: 152.38px;
+    top: 1365.85px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0);
+    border-radius: 25px;
+}
+
+.hora{
+    position: absolute;
+    width: 276.82px;
+    height: 33.66px;
+    left: 147px;
+    top: 1480px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.ent-hora{
+    position: absolute;
+    width: 810.62px;
+    height: 71.62px;
+    left: 147px;
+    top: 1513.66px;
+}
+
+.fecha{
+    position: absolute;
+    width: 251px;
+    height: 41px;
+    left: 1453px;
+    top: 893px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+.ent-fecha{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    left: 1161px;
+    top: 984px;
+}
+
+.boton-guardar{
+    position: absolute;
+    width: 309px;
+    height: 104px;
+    left: 148px;
+    top: 1625px;
+
+    background: #37BE55;
+    border-radius: 25px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.texto{
+    position: absolute;
+    width: 998px;
+    height: 82px;
+    left: 35%;
+    top: 700px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #FFFFFF;
+}
+
+.texto1{
+    position: absolute;
+    width: 225px;
+    height: 40px;
+    left: 858px;
+    top: 470px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 31px;
+
+    color: #000000;
 }
