@@ -66,7 +66,7 @@
     left: 760px;
     top: 64px;
     border-radius: 100%;
-    
+
     background: rgba(255, 255, 255, 0.62);
 }
 
@@ -76,7 +76,7 @@
     height: 104px;
     left: 806px;
     top: 464px;
-    
+
     background: rgba(255, 255, 255, 0.62);
     border-radius: 25px;
 }
@@ -87,13 +87,13 @@
     height: 24px;
     left: 885px;
     top: 485px;
-    
+
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
-    
+
     color: #000000;
 }
 
@@ -129,6 +129,15 @@ footer {
     top: 1976px;
     color:#fff ;
     text-align: center;
-    
+
     background: #000000;
-    }
+}
+
+.galeria{
+    background-color: #363636;
+    width: 1904px;
+    top: 620px;
+    height: 1350px;
+    position:relative;
+
+}
