@@ -99,27 +99,51 @@
 
 .articulo1{
     position: absolute;
-    top: 5%;
+    top: 3%;
     left: 7%;
 }
 
 .articulo2{
     position: absolute;
-    top: 5%;
+    top: 3%;
     left: 60%;
+    border: 5px solid #f7f7f7;
 }
 
 .articulo3{
     position: absolute;
-    top: 60%;
+    top: 40%;
     left: 7%;
+    border: 5px solid #f7f7f7;
 }
 
 .articulo4{
     position: absolute;
-    top: 60%;
-    left: 60%
+    top: 40%;
+    left: 60%;
+    margin: 0 !important;
+    padding: 25px;
+    border: 5px solid #f7f7f7;
 }
+.articulo5{
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    margin: 0 !important;
+    padding: 25px;
+    margin: 0 !important;
+    padding: 25px;
+    border: 5px solid #f7f7f7;
+}
+.articulo6{
+    position: absolute;
+    top: 70%;
+    left: 7%;
+    margin: 0 !important;
+    padding: 25px;
+    border: 5px solid #f7f7f7;
+}
+
 
 footer {
     position: absolute;
@@ -140,4 +164,15 @@ footer {
     height: 1350px;
     position:relative;
 
+}
+#galeriacol-lg-4{
+    margin: 0 !important;
+    padding: 25px;
+}
+#galeriaimg{
+    width:100%;
+    heigth:250px;
+}
+#galeriaimg:hover{
+    border: 5px solid #f7f7f7;
 }
