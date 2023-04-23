@@ -12,7 +12,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
  *
@@ -25,11 +24,14 @@ public class AgendaController {
     @Autowired
     AgendaService agendaService;
     
+    
+    
     @GetMapping("/agenda")
     public String page(Model model) {
         model.addAttribute("attribute", "value");
         return "/agenda";
     }
+    
     
     @GetMapping("/agenda/nuevo")
     public String nuevoCita(Agenda agenda){
@@ -41,5 +43,7 @@ public class AgendaController {
         agendaService.save(agenda);
         return "redirect:/";
     }
+    
+    
     
 }

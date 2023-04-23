@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Historial</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>        
+        <div class="contenido">
+            <br>
+            <br>
+            <div th:if="${lista != null and !lista.empty}">
+                <table border="1">
+                    <thead>
+                        <th>Nombre</td>
+                        <th>Apellidos</td>
+                        <th>Correo</td>
+                        <th>Telefono</td>
+                        <th>Hora</td>
+                        <th>Fecha</td>
+                    </thead>
+                    <tr th:each="item : ${lista}">
+                        <td th:text="${item.nombre}"></td>                        
+                        <td th:text="${item.apellidos}"></td>                        
+                        <td th:text="${item.correo}"></td>                        
+                        <td th:text="${item.telefono}"></td>
+                        <td th:text="${item.hora}"></td>
+                        <td th:text="${item.fecha}"></td>
+                    </tr>
+                </table>
+            </div> 
+
+            <div th:if="${lista == null or lista.empty}">
+                No historial para mostrar!
+            </div>
+        </div>
+    </body>
+</html>  
