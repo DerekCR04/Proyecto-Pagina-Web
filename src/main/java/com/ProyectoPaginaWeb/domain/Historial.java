@@ -8,10 +8,7 @@ import jakarta.persistence.Table;
 import java.io.Serializable;
 import lombok.Data;
 
-/**
- *
- * @author User
- */
+
 @Data
 @Entity
 @Table(name="cliente")
@@ -36,4 +33,9 @@ public class Historial implements Serializable{
         this.hora = hora;
         this.fecha = fecha;
     }
+
+    public Historial() {
+   }
+    
+    
 }

@@ -26,14 +26,14 @@ public class HistorialController {
     
     @GetMapping("/historial")
     public String page(Model model) { 
-        //var lista = historialDao.findAll();
-        //model.addAttribute("lista", lista);
+        var lista = historialDao.findAll();
+        model.addAttribute("lista", lista);
         return "/historial/consulta";
     } 
     
-    /*@GetMapping("/lista/historial")
+    @GetMapping("/lista/historial")
     public String Historial(Historial historial){
         return "/historial/consulta";
-    }*/
+    }
     
 }
