@@ -9,6 +9,6 @@ import org.springframework.data.repository.CrudRepository;
  *
  * @author leona
  */
-public interface HistorialDao extends CrudRepository<Historial, Long> {
+public interface HistorialDao extends CrudRepository<Historial, Long> { 
  
 }
