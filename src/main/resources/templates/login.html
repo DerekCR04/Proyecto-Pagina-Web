@@ -5,11 +5,27 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Login</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/EstiloLogin.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <div>TODO write content</div>
-    </body>
+
+    <article class="golfista">
+        <img src="imagenes/IMG_20211109_170820 1.png" alt=""/>
+    </article>
+
+    <div class="contenedor">
+        <p class="titulo">Inicio de sesión</p>
+        <div class="formulario">
+            <form method="POST" th:action="@{/login}">
+            <input id="usuario" type="text" class="form-control" name="username" placeholder="usuario">
+            <input id="contraseña" type="password" class="form-control2" name="password" placeholder="contraseña">
+            <br>
+            <button id="boton" class="boton">Iniciar sesion</button>
+            </form>
+        </div>
+    </div>
+</body>
 </html>

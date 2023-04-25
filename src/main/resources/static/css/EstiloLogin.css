@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.golfista{
+    position: absolute;
+    width: 688px;
+    height: 917px;
+    left: 185px;
+    top: 25px;
+    
+    border-radius: 151px;
+}
+
+.contenedor{
+    position: absolute;
+    width: 742px;
+    height: 969px;
+    left: 1100px;
+    top: 0px;
+    
+    background: #00AB5D;
+}
+
+.titulo{
+    position: absolute;
+    width: 303px;
+    height: 48px;
+    left: 250px;
+    top: 279px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    
+    color: #000000;
+}
+
+.form-control{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 496px;
+    height: 71px;
+    left: 150px;
+    top: 469px;
+    
+    background: #00AB5D;
+    border: 3px solid #FFFFFF;
+}
+
+.form-control2{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 496px;
+    height: 71px;
+    left: 150px;
+    top: 595px;
+    
+    background: #00AB5D;
+    border: 3px solid #FFFFFF;
+}
+
+.boton{
+    position: absolute;
+    width: 189px;
+    height: 71px;
+    left: 150px;
+    top: 721px;
+    
+    background: #351846;
+}
