@@ -43,6 +43,7 @@
                     <th>Telefono</td>
                     <th>Hora</td>
                     <th>Fecha</td>
+                    <th colspan="2">Acciones</th>
                         </thead>
                     <tr th:each="item : ${lista}">
                         <td th:text="${item.nombre}"></td>                        
@@ -51,6 +52,8 @@
                         <td th:text="${item.telefono}"></td>
                         <td th:text="${item.hora}"></td>
                         <td th:text="${item.fecha}"></td>
+                        <td><a th:href="@{/modificarCliente/} + ${item.idCliente}">Modificar</a></td>
+                        <td><a th:href="@{/eliminarCliente/} + ${item.idCliente}">Eliminar</a></td>
                     </tr>
                 </table>
             </div> 

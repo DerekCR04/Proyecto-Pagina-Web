@@ -39,5 +39,8 @@ public class Agenda implements Serializable{
         this.hora = hora;
         this.fecha = fecha;
     }
+
+    public Agenda() {
+    }
     
 }

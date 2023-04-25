@@ -32,10 +32,13 @@ public class Historial implements Serializable{
         this.telefono = telefono;
         this.hora = hora;
         this.fecha = fecha;
+       
     }
 
     public Historial() {
    }
+   
     
+   
     
 }
