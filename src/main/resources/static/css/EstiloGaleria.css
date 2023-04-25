@@ -4,8 +4,11 @@
     height: 627px;
     left: 0px;
     top: 0px;
-    background: #F5B550;
+    background: linear-gradient(to bottom, white, #F5B550);
 
+}
+.headergaleria:hover {
+  background: linear-gradient(to bottom, #F5B550, white);
 }
 
 .imagen3 {
@@ -34,8 +37,11 @@
     height: 150px;
     left: 230px;
     top: 35%;
-
-    border-radius: 175px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+}
+.imageninicio:hover {
+  animation: spin 1s linear infinite;
 }
 
 .videos{

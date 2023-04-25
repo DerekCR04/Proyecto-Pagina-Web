@@ -1,11 +1,13 @@
 .headervideo {
-    position: absolute;
-    width: 1903px;
+    position: relative;
+    width: 100%;
     height: 627px;
-    left: 0px;
-    top: 0px;
-    background: #F5B550;
+    background: linear-gradient(to bottom, white, #F5B550);
+    transition: background-color 0.3s ease-in-out;
 
+}
+.headervideo:hover {
+  background: linear-gradient(to bottom, #F5B550, white);
 }
 
 .imagen3 {
@@ -14,16 +16,15 @@
     height: 350px;
     left: 787px;
     top: 90px;
-
-    border-radius: 175px;
+    border-radius: 50%;
 }
 
 .imagenlogogolf {
-    position: absolute;
+        position: absolute;
     width: 350px;
     height: 350px;
-    left: 1469px;
-    top: 27%;
+    left: 1457px;
+    top: 89px;
 
     border-radius: 175px;
 }
@@ -34,92 +35,32 @@
     height: 150px;
     left: 230px;
     top: 35%;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+}
+.imageninicio:hover {
+  animation: spin 1s linear infinite;
+}
 
-    border-radius: 175px;
+@keyframes spin {
+  0% {
+    transform: rotate(2deg);
+  }
+  100% {
+    transform: rotate(1deg);
+  }
 }
 
 .videos{
     position: relative;
-    width: 1885px;
+    width: 100%;
+    max-width: 1885px;
     height: 1350px;
-    left: 0;
-    top: 630px;
-
-    background: rgba(0, 0, 0, 0.62);
+    margin-top: 100px;
+    background-size: cover;
+    background-position: center;
 }
 
-.footer {
-    position: absolute;
-    width: 1903px;
-    height: 136px;
-    left: 1px;
-    top: 1978px;
-    background-color:  #EBEBEB;
-
-}
-
-
-.fondo1{
-    position: absolute;
-    width: 400px;
-    height: 400px;
-    left: 760px;
-    top: 64px;
-    border-radius: 100%;
-    
-    background: rgba(255, 255, 255, 0.62);
-}
-
-.fondo2{
-    position: absolute;
-    width: 309px;
-    height: 104px;
-    left: 806px;
-    top: 464px;
-    
-    background: rgba(255, 255, 255, 0.62);
-    border-radius: 25px;
-}
-
-.texto{
-    position: absolute;
-    width: 178px;
-    height: 24px;
-    left: 885px;
-    top: 485px;
-    
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
-    
-    color: #000000;
-}
-
-.articulo1{
-    position: absolute;
-    top: 5%;
-    left: 7%;
-}
-
-.articulo2{
-    position: absolute;
-    top: 5%;
-    left: 60%;
-}
-
-.articulo3{
-    position: absolute;
-    top: 60%;
-    left: 7%;
-}
-
-.articulo4{
-    position: absolute;
-    top: 60%;
-    left: 60%
-}
 
 footer {
     position: absolute;
@@ -132,7 +73,88 @@ footer {
     
     background: #000000;
     }
-    
-    .desc1 {
-        color:whitesmoke;
-    }
+
+.fondo1{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 760px;
+    top: 64px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.62);
+    transform: rotate(-20deg);
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.fondo2{
+    position: absolute;
+    width: 309px;
+    height: 104px;
+    left: 806px;
+    top: 464px;
+    background: rgba(255, 255, 255, 0.62);
+    border-radius: 25px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.texto{
+    position: absolute;
+    width: 178px;
+    height: 24px;
+    left: 885px;
+    top: 485px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.articulo1 {
+  position: absolute;
+  top: 5%;
+  left: 7%;
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.articulo2 {
+  position: absolute;
+  top: 5%;
+  left: 60%;
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.articulo3 {
+  position: absolute;
+  top: 60%;
+  left: 7%;
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.articulo4 {
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.articulo1:hover,
+.articulo2:hover,
+.articulo3:hover,
+.articulo4:hover {
+  transform: scale(1.3);
+}
+
+
+
+.desc1 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}

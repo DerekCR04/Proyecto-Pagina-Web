@@ -1,12 +1,13 @@
 .headerAgenda{
-    position: absolute;
-    width: 1902px;
+    position: relative;
+    width: 100%;
     height: 627px;
-    left: 1px;
-    top: 0px;
+    background: linear-gradient(to bottom, white, #37BE55);
+    transition: background-color 0.3s ease-in-out;
+}
 
-    background: #37BE55;
-
+.headerAgenda:hover {
+  background: linear-gradient(to bottom, #37BE55, white);
 }
 .body{
     position: relative;
@@ -18,11 +19,24 @@
 
 .imageninicio{
     position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 192px;
-    top: 243px;
+    width: 150px;
+    height: 150px;
+    left: 230px;
+    top: 35%;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+}
+.imageninicio:hover {
+  animation: spin 1s linear infinite;
+}
 
+@keyframes spin {
+  0% {
+    transform: rotate(2deg);
+  }
+  100% {
+    transform: rotate(1deg);
+  }
 }
 
 .fondo1{
@@ -245,23 +259,30 @@
     top: 984px;
 }
 
-.boton-guardar{
-    position: absolute;
-    width: 309px;
-    height: 104px;
-    left: 148px;
-    top: 1625px;
+.boton-container {
+  background-color: #000000;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
+}
 
-    background: #37BE55;
-    border-radius: 25px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
-
-    color: #FFFFFF;
+.boton-guardar {
+  position: absolute;
+  width: 309px;
+  height: 104px;
+  left: 148px;
+  top: 1625px;
+  background: #37BE55;
+  border-radius: 25px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.boton-guardar:hover {
+    background-color: #2D8C43;
 }
 
 .texto{

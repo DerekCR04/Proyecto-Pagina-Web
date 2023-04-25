@@ -35,14 +35,14 @@
             <br>
             <br>
             <div style="top: 900px; position: absolute; left:  32%" th:if="${lista != null and !lista.empty}">
-                <table border="1">
+                <table border="1" class="styled-table">
                     <thead>
-                    <th>Nombre</td>
-                    <th>Apellidos</td>
-                    <th>Correo</td>
-                    <th>Telefono</td>
-                    <th>Hora</td>
-                    <th>Fecha</td>
+                    <th>Nombre</th>
+                    <th>Apellidos</th>
+                    <th>Correo</th>
+                    <th>Telefono</th>
+                    <th>Hora</th>
+                    <th>Fecha</th>
                     <th colspan="2">Acciones</th>
                         </thead>
                     <tr th:each="item : ${lista}">
